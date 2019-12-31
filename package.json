@@ -2,7 +2,7 @@
   "name": "forca",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.jss",
+  "main": "index.js",
   "dependencies": {
     "babel-loader": "^8.0.6",
     "webpack-cli": "^3.3.10",
@@ -12,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack -w"
+    "dev": "webpack -w",
+    "start": "node index.js"
 
   },
   "author": "",
